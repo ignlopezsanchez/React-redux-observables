@@ -1,21 +1,16 @@
-export const updateError = (error) => ({
-    type: 'UPDATE_ERROR',
-    error
-})
 
-export const updateUsers = (users) => ({
-    type: 'UPDATE_USERS',
-    users
+export const fetchQuery = (searchText) => ({
+    type: 'FETCH_API',
+    payload: searchText
 })
-export const fetchUserSuccess = () => ({
+export const fetchUserSuccess = (users) => ({
     type: 'FETCH_USER_SUCCESS',
+    payload: users
 })
 export const fetchUserFail = () => ({
     type: 'FETCH_USER_FAIL',
 })
-export const loading = () => ({
-    type: 'LOADING',
-})
+
 export const clearSearch = () => ({
     type: 'CLEAR_SEARCH',
 })

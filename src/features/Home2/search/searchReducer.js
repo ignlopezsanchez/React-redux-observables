@@ -11,9 +11,9 @@ export const searchReducer = (state = initialState, action) => {
         /*case 'UPDATE_ERROR':
             return {users: [], error: action.error, isLoading: false}*/
         case 'FETCH_USER_SUCCESS':
-            return {...state, isLoading: false}
+            return {...state, isLoading: false, users: action.payload}
         case 'FETCH_USER_FAIL':
-            return {...state, isLoading: false}
+            return {...state, isLoading: false, error: action.payload}
         case 'CLEAR_SEARCH':
             return { users: [], isLoading: false, error: null}
 

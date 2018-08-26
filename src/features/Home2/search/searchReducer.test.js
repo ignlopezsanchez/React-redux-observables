@@ -1,6 +1,6 @@
 import {searchReducer} from './searchReducer'
 import * as actions from './searchActions'
-import {updateError} from "./searchActions";
+import {fetchUserFail} from './searchActions'
 
 describe('counter reducer', () => {
 
@@ -12,7 +12,7 @@ describe('counter reducer', () => {
         }
         expect(searchReducer(undefined, {})).toEqual(initialState)
     })
-    it('should handle UPDATE_ERROR', () => {
+    it('should handle FETCH_USER_FAIL', () => {
 
         const initialState = {
             users: [],
@@ -24,10 +24,10 @@ describe('counter reducer', () => {
             error: "Error",
             isLoading: false
         }
-        const newState = searchReducer(initialState, updateError("Error"))
+        const newState = searchReducer(initialState, fetchUserFail("Error"))
         expect(newState).toEqual(desireState)
     })
-    it('should handle UPDATE_USERS', () => {
+    it('should handle FETCH_USER_SUCCESS', () => {
         const initialState = {
             users: [],
             error: null,
@@ -38,47 +38,24 @@ describe('counter reducer', () => {
             error: null,
             isLoading: false
         }
-        expect(searchReducer(initialState, actions.updateUsers({user: "Jaimito"}))).toEqual(desireState)
+        expect(searchReducer(initialState, actions.fetchUserSuccess({user: "Jaimito"}))).toEqual(desireState)
     })
-    it('should handle UPDATE_ERROR, UPDATE_USERS, FETCH_USERS_SUCCESS, FETCH_USERS_FAIL, LOADING, CLEAR_SEARCH', () => {
+ 
+    it('should handle FETCH_API', () => {
         const initialState = {
             users: [],
             error: null,
             isLoading: false
         }
-        expect(searchReducer(initialState, actions.fetchUserSuccess())).toEqual({
-            users: [],
-            error: null,
-            isLoading: false
-        })
-    })
-    it('should handle UPDATE_ERROR, UPDATE_USERS, FETCH_USERS_SUCCESS, FETCH_USERS_FAIL, LOADING, CLEAR_SEARCH', () => {
-        const initialState = {
-            users: [],
-            error: null,
-            isLoading: false
-        }
-        expect(searchReducer(initialState, actions.fetchUserFail())).toEqual({
-            users: [],
-            error: null,
-            isLoading: false
-        })
-    })
-    it('should handle UPDATE_ERROR, UPDATE_USERS, FETCH_USERS_SUCCESS, FETCH_USERS_FAIL, LOADING, CLEAR_SEARCH', () => {
-        const initialState = {
-            users: [],
-            error: null,
-            isLoading: false
-        }
-        expect(searchReducer(initialState, actions.loading())).toEqual({
+        expect(searchReducer(initialState, actions.fetchApi())).toEqual({
             users: [],
             error: null,
             isLoading: true
         })
     })
-    it('should handle UPDATE_ERROR, UPDATE_USERS, FETCH_USERS_SUCCESS, FETCH_USERS_FAIL, LOADING, CLEAR_SEARCH', () => {
+    it('should handle CLEAR_SEARCH', () => {
         const initialState = {
-            users: [],
+            users: ["Jaime", "Luna", "Luis"],
             error: "Error",
             isLoading: true
         }

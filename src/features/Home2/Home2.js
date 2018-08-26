@@ -38,7 +38,7 @@ export class Home2Component extends Component {
     render()
     {
         let content;
-
+        
         if (this.props.error) {
             content = <Error message={this.props.error}/>}
         else if (this.props.isLoading)  {

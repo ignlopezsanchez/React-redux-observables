@@ -8,6 +8,7 @@ import { createEpicMiddleware } from "redux-observable";
 import {searchReducer} from './features/Home2/search/searchReducer'
 import {searchEpic} from './features/Home2/search/searchEpic'
 import registerServiceWorker from './registerServiceWorker';
+import 'semantic-ui-css/semantic.min.css';
 
 const epicMiddleware = createEpicMiddleware();
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

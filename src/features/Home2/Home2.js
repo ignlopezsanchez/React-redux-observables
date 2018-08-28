@@ -2,25 +2,26 @@ import React, {Component} from 'react';
 import {Input} from '../../Components/Input';
 import {ListOfCards} from '../../Components/ListOfCards'
 import {connect} from "react-redux";
-import axios from "axios";
+// import axios from "axios";
 import {fetchApi, fetchUserSuccess, fetchUserFail, clearSearch} from './search/searchActions'
 import {Error} from '../../Components/Error'
 import {Loading} from "../../Components/Loading";
 import {EmptyUsers} from "../../Components/EmptyUsers";
-import {Intro} from "../../Components/Intro";
+import { Container, Segment} from 'semantic-ui-react'
+// import {Intro} from "../../Components/Intro";
 
 
 
 export class Home2Component extends Component {
     constructor(props) {
         super(props)
-
         this.searchText = ""
     }
 
     
  
     handleChange = (e) => {
+        this.setState({hola: e.target.value})
         this.searchText = e.target.value
         
         if (e.target.value === "") {
@@ -35,6 +36,7 @@ export class Home2Component extends Component {
         console.log("holaaaaaaa")
         this.props.clearSearch()
     }
+
     render()
     {
         let content;
@@ -53,8 +55,12 @@ export class Home2Component extends Component {
 
         return (
             <React.Fragment>
-                <Input onChange={(e) => this.handleChange(e)}/>
-                {content}
+                <Container>
+                    <Segment stacked>
+                        <Input onChange={(e) => this.handleChange(e)}/>
+                        {content}
+                    </Segment>
+                </Container>
             </React.Fragment>
         );
     }

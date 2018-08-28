@@ -1,4 +1,4 @@
-@import url("../ui-kit/globals/colors.css");
+@import url("../../ui-kit/globals/colors.css");
 
 .test {
     background-color: var(--brandcolor);

@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import {Home2Component} from './Home2'
+import {Home2Component} from './Weather'
 import {Loading} from "../../Components/githubSearch/Loading";
 import {Error} from "../../Components/githubSearch/Error";
 import {EmptyUsers} from "../../Components/githubSearch/EmptyUsers";

@@ -1,9 +1,9 @@
-import Input from "./Components/Input";
-import Intro from "./Components/Intro";
-import Error from "./Components/Error";
-import Loading from "./Components/Loading";
-import EmptyUsers from "./Components/EmptyUsers";
-import {ListOfCards} from "./Components/ListOfCards";
+import Input from "./Components/githubSearch/Input";
+import Intro from "./Components/githubSearch/Intro";
+import Error from "./Components/githubSearch/Error";
+import Loading from "./Components/githubSearch/Loading";
+import EmptyUsers from "./Components/githubSearch/EmptyUsers";
+import {ListOfCards} from "./Components/githubSearch/ListOfCards";
 import React from "react";
 
 if (error.response) {

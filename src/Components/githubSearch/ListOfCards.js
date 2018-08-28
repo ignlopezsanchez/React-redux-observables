@@ -30,5 +30,5 @@ export class ListOfCardsComponent extends Component {
     }
 }
 
-const mapStateToProps = ({users}) => ({users})
+const mapStateToProps = ({search}) => ({users: search.users})
 export const ListOfCards = connect(mapStateToProps)(ListOfCardsComponent)

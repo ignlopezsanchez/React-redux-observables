@@ -15,7 +15,8 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
             <li><Link to={"/"}>Home</Link></li>
-          <li><Link to={"/home2"}>Opción 2</Link></li>
+            <li><Link to={"/githubSearch"}>Github Search</Link></li>
+            <li><Link to={"/weather"}>Weather</Link></li>
         <AppRoutes/>
       </div>
         </Router>

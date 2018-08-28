@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import {Input} from '../../Components/Input';
-import {ListOfCards} from '../../Components/ListOfCards'
+import {Input} from '../../Components/githubSearch/Input';
+import {ListOfCards} from '../../Components/githubSearch/ListOfCards'
 import {connect} from "react-redux";
 // import axios from "axios";
 import {fetchApi, fetchUserSuccess, fetchUserFail, clearSearch} from './search/searchActions'
-import {Error} from '../../Components/Error'
-import {Loading} from "../../Components/Loading";
-import {EmptyUsers} from "../../Components/EmptyUsers";
-import { Container, Segment} from 'semantic-ui-react'
+import {Error} from '../../Components/githubSearch/Error'
+import {Loading} from "../../Components/githubSearch/Loading";
+import {EmptyUsers} from "../../Components/githubSearch/EmptyUsers";
+import { Container, Segment, Loader, Dimmer} from 'semantic-ui-react'
 // import {Intro} from "../../Components/Intro";
 
 
@@ -44,6 +44,7 @@ export class Home2Component extends Component {
         if (this.props.error) {
             content = <Error message={this.props.error}/>}
         else if (this.props.isLoading)  {
+            // content = <Dimmer active><Loader/></Dimmer>
             content = <Loading/>
         }
         else if ( this.props.users.length === 0 && !this.props.error){
@@ -65,7 +66,7 @@ export class Home2Component extends Component {
         );
     }
 }
-const mapStateToProps = ({error, isLoading, users}) => ({error, isLoading, users})
+const mapStateToProps = ({search}) => ({error: search.error, isLoading: search.isLoading, users: search.users})
 
 const mapDispatchToProps = {
     fetchApi,

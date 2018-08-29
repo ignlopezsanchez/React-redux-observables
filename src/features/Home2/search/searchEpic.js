@@ -1,6 +1,6 @@
 import {ofType} from 'redux-observable'
-import { debounceTime, switchMap, map, takeUntil, catchError, retry, delay } from 'rxjs/operators';
-import { fetchUserFail, fetchUserSuccess, clearSearch} from "./searchActions";
+import {  switchMap, map, takeUntil, catchError, retry, delay } from 'rxjs/operators';
+import { fetchUserFail, fetchUserSuccess } from "./searchActions";
 import {of} from 'rxjs'
 import {httpClient} from "./myLibrary";
 

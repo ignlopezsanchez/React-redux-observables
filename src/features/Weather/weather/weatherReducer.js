@@ -13,7 +13,7 @@ export const weatherReducer = (state = initialState, action) => {
         case 'FETCH_WEATHER_FAIL':
             return {...state, isLoading: false, error: action.payload}
         case 'CLEAR_WEATHER_SEARCH':
-            return { weather: [], isLoading: false, error: null}
+            return { weather: {}, isLoading: false, error: null}
         default:
             return state
     }

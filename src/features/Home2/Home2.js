@@ -2,13 +2,11 @@ import React, {Component} from 'react';
 import {Input} from '../../Components/githubSearch/Input';
 import {ListOfCards} from '../../Components/githubSearch/ListOfCards'
 import {connect} from "react-redux";
-// import axios from "axios";
 import {fetchApi, fetchUserSuccess, fetchUserFail, clearSearch} from './search/searchActions'
 import {Error} from '../../Components/githubSearch/Error'
 import {Loading} from "../../Components/githubSearch/Loading";
 import {EmptyUsers} from "../../Components/githubSearch/EmptyUsers";
-import { Container, Segment, Loader, Dimmer} from 'semantic-ui-react'
-// import {Intro} from "../../Components/Intro";
+import { Container, Segment} from 'semantic-ui-react'
 
 
 

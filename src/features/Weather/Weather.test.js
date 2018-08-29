@@ -1,35 +1,36 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import {Home2Component} from './Weather'
-import {Loading} from "../../Components/githubSearch/Loading";
-import {Error} from "../../Components/githubSearch/Error";
-import {EmptyUsers} from "../../Components/githubSearch/EmptyUsers";
-import {ListOfCards, ListOfCardsComponent} from "../../Components/githubSearch/ListOfCards";
-import {Input} from "../../Components/githubSearch/Input";
+import {WeatherComponent} from './Weather'
 
-describe("Test Home2 Component suite", () => {
+import { Message,Loader, Card , Segment, Container, Dimmer} from "semantic-ui-react";
+
+
+describe("Test Weather Component suite", () => {
 
     it("should render Home2 without error", () => {
-        const wrapper = shallow(<Home2Component isLoading={true} error={null} users={[]}/>);
+        const wrapper = shallow(<WeatherComponent isLoading={true} error={null} main={null}/>);
         expect(wrapper.exists()).toBe(true);
 
     });
     it("should render Loading without error", () => {
-        const wrapper = shallow(<Home2Component isLoading={true} error={null} users={[]}/>);
-        expect(wrapper.containsMatchingElement(<Loading/>)).toBe(true);
+        const wrapper = shallow(<WeatherComponent isLoading={true}/>);
+        expect(wrapper.containsMatchingElement(
+                    <Loader size="mini">Loading</Loader>)).toBe(true);
     });
     it("should render Error without error", () => {
-        const wrapper = shallow(<Home2Component  error="Error"/>)
-        expect(wrapper.containsMatchingElement(<Error/>)).toBe(true);
-    });
-    it("should render EmptyUsers without error", () => {
-        const wrapper = shallow(<Home2Component  error={null} users={[]}/>);
-        expect(wrapper.containsMatchingElement(<EmptyUsers/>)).toBe(true);
+        const wrapper = shallow(<WeatherComponent  isLoading={false} error="Error"/>)
+        expect(wrapper.containsMatchingElement(<Message negative={true}><Message.Header>
+                ERROR
+            </Message.Header>
+                <p>
+                    Error
+                </p>
+            </Message>
+        )).toBe(true);
     });
 
-    it("should render ListOfCards without error", () => {
-        const wrapper = shallow(<Home2Component isLoading={false} error={null} users={["Luna"]}  fetchApi={()=>{}} clearSearch={()=>{}} loading={()=>{}}/>);
-        wrapper.find(Input).simulate('change',{target: {value: 'ignlopezsanchez'}} )
-        expect(wrapper.containsMatchingElement(<ListOfCards/>)).toBe(true);
+    it("should render Weather Card without error", () => {
+        const wrapper = shallow(<WeatherComponent isLoading={false} error={null} main="Clear" />);
+        expect(wrapper.containsMatchingElement(<Card/>)).toBe(true);
     });
 })

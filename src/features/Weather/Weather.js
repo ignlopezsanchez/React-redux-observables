@@ -9,11 +9,16 @@ import {
   clearWeatherSearch
 } from "./weather/weatherActions";
 
-import { Container, Message, Segment, Loader, Dimmer, Card } from "semantic-ui-react";
+import { Container, Message, Segment, Loader, Dimmer, Card, Image, Icon } from "semantic-ui-react";
 
 
 export class WeatherComponent extends Component {
-
+  constructor(props) {
+    super(props)
+      this.state = {
+        searchText: ""
+      }
+  }
 
   componentWillUnmount() {
     this.props.clearWeatherSearch();
@@ -25,7 +30,13 @@ export class WeatherComponent extends Component {
   handleHoverLeave = e => {
     this.props.clearWeatherSearch();
   };
-  render() {
+  handleChange = e => {
+        this.setState({searchText: e.target.value})
+
+    };
+
+
+    render() {
     const cities = [
       "London",
       "Madrid",
@@ -36,8 +47,10 @@ export class WeatherComponent extends Component {
       "nn"
     ];
     return (
+
       <Container>
-        {cities.map((city, i) => (
+          <input onChange={(e)=> this.handleChange(e)} placeholder="Esccriba una ciudad"/><br/>
+        {cities.filter(e => e.toLowerCase().includes(this.state.searchText.toLowerCase())).map((city, i) => (
           <span
             onMouseEnter={e => this.handleHoverEnter(e)}
             onMouseLeave={e => this.handleHoverLeave(e)}
@@ -45,7 +58,7 @@ export class WeatherComponent extends Component {
           >
             {`${city}                                               `}
           </span>
-        ))}
+        )) }
         {this.props.isLoading && (
           <Segment size="massive">
             <Dimmer active>
@@ -64,14 +77,15 @@ export class WeatherComponent extends Component {
         )}
 
         {this.props.main && (
-          <Card
-            centered
-            image={`http://openweathermap.org/img/w/${this.props.icon}.png`}
-            header={this.props.name}
-            meta={this.props.main}
-            description={this.props.description}
-            extra={`${this.props.temperature} ºC`}
-          />
+            <Card
+                centered
+                image={`http://openweathermap.org/img/w/${this.props.icon}.png`}
+                header={this.props.name}
+                meta={this.props.main}
+                description={this.props.description}
+                extra={`${this.props.temperature} ºC`}
+            />
+
         )}
       </Container>
     );
@@ -102,3 +116,25 @@ export const Weather = connect(
   mapStateToProps,
   mapDispatchToProps
 )(WeatherComponent);
+
+
+
+
+
+{/*
+<Card centered>
+    <Image centered size="small" src={`http://openweathermap.org/img/w/${this.props.icon}.png`} />
+    <Card.Content>
+        <Card.Header>{this.props.name}</Card.Header>
+        <Card.Meta>
+            <span className='date'>{this.props.main}</span>
+        </Card.Meta>
+        <Card.Description>{this.props.description}</Card.Description>
+    </Card.Content>
+    <Card.Content extra>
+        <a>
+            <Icon name='user' />
+            22 Friends
+        </a>
+    </Card.Content>
+</Card>*/}

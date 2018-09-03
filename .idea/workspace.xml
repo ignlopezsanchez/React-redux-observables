@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe2f5401-d794-4460-9b44-d7f3fa539116" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/features/Weather/Weather.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Weather/Weather.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Weather/weather/weatherActions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Weather/weather/weatherActions.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/Weather/weather/weatherReducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Weather/weather/weatherReducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Home2/search/searchEpic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Home2/search/searchEpic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Weather/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Weather/Weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,34 +97,36 @@
     <session id="601425214">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.11" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="js" value="66" />
+          <entry key="css" value="7" />
+          <entry key="js" value="76" />
           <entry key="json" value="6" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="7" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="66" />
+          <entry key="JavaScript" value="76" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="156" />
-          <entry key="js" value="4489" />
+          <entry key="js" value="4991" />
           <entry key="json" value="2" />
         </counts>
       </usages-collector>
@@ -132,46 +134,32 @@
         <counts>
           <entry key="CSS" value="156" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="4489" />
+          <entry key="JavaScript" value="4991" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="PrettierLanguageServiceImpl" value="2" />
+          <entry key="PrettierLanguageServiceImpl" value="3" />
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="OservablesEjerciciogithubSinObservables" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="18" selection-end-line="42" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.test.js">
+        <entry file="file://$PROJECT_DIR$/src/features/Home2/search/searchEpic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state relative-caret-position="264">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/myLibrary.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -192,6 +180,7 @@
       <find>cfrr</find>
       <find>Home2Component</find>
       <find>T</find>
+      <find>weather</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -244,13 +233,13 @@
         <option value="$PROJECT_DIR$/src/helpers.js" />
         <option value="$PROJECT_DIR$/src/features/Weather/weather/weatherReducer.js" />
         <option value="$PROJECT_DIR$/src/features/Home2/Home2.js" />
-        <option value="$PROJECT_DIR$/src/features/Home2/search/searchEpic.js" />
-        <option value="$PROJECT_DIR$/src/features/Weather/Weather.js" />
-        <option value="$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.js" />
-        <option value="$PROJECT_DIR$/src/features/Weather/Weather.test.js" />
         <option value="$PROJECT_DIR$/src/features/Weather/weather/weatherActions.test.js" />
         <option value="$PROJECT_DIR$/src/features/Weather/weather/weatherReducer.test.js" />
         <option value="$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.test.js" />
+        <option value="$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.js" />
+        <option value="$PROJECT_DIR$/src/features/Weather/Weather.test.js" />
+        <option value="$PROJECT_DIR$/src/features/Weather/Weather.js" />
+        <option value="$PROJECT_DIR$/src/features/Home2/search/searchEpic.js" />
       </list>
     </option>
   </component>
@@ -274,9 +263,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+    <option name="y" value="34" />
+    <option name="width" value="1910" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,7 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,6 +292,13 @@
               <item name="OservablesEjerciciogithubSinObservables" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OservablesEjerciciogithubSinObservables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OservablesEjerciciogithubSinObservables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="githubSearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OservablesEjerciciogithubSinObservables" type="b2602c69:ProjectViewProjectNode" />
@@ -341,16 +336,30 @@
               <item name="Weather" type="462c0819:PsiDirectoryNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OservablesEjerciciogithubSinObservables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OservablesEjerciciogithubSinObservables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-kit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OservablesEjerciciogithubSinObservables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OservablesEjerciciogithubSinObservables" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-kit" type="462c0819:PsiDirectoryNode" />
+              <item name="globals" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///home/nacho/Escritorio/Formacion/SearchGithub/OservablesEjerciciogithubSinObservables/src/features/Home2/Home2.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Orange X/customer-portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -417,12 +426,15 @@
       <workItem from="1535354982332" duration="21054000" />
       <workItem from="1535440896882" duration="11487000" />
       <workItem from="1535462948413" duration="11946000" />
-      <workItem from="1535528797027" duration="23425000" />
+      <workItem from="1535528797027" duration="24311000" />
+      <workItem from="1535614110854" duration="8878000" />
+      <workItem from="1535700338362" duration="67000" />
+      <workItem from="1535971798297" duration="244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147436000" />
+    <option name="totallyTimeSpent" value="157511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,10 +449,10 @@
     <frame x="0" y="32" width="2560" height="1343" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17496051" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.17496051" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50092083" side_tool="true" weight="0.17496051" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.51090604" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
@@ -452,7 +464,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329698" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32906976" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.54447114" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5444631" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -486,8 +498,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../src/Components/Input.js" />
-    <entry file="file://$PROJECT_DIR$/../src/Components/Intro.js" />
     <entry file="file://$PROJECT_DIR$/../src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/../src/Components/ListOfCards.js" />
     <entry file="file://$PROJECT_DIR$/../eslintrc.json" />
@@ -611,20 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui-kit/globals/colors.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/githubSearch/ListOfCards.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/Home2/search/searchReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -639,16 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rootReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/githubSearch/ListOfCards.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -660,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,46 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Home2/search/searchEpic.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rootEpics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Home2/search/searchEpic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,30 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Weather/Weather.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-678">
-          <caret line="11" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Weather/Weather.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/features/Home2/Home2.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,9 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,9 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
           <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,25 +729,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/myLibrary.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.js">
+    <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="18" selection-end-line="42" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="506">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.test.js">
+    <entry file="file://$PROJECT_DIR$/src/features/Home2/search/searchEpic.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="704">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/myLibrary.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rootEpics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rootReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Weather/weather/weatherEpic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui-kit/globals/colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/githubSearch/ListOfCards.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Weather/Weather.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Template Salesforce/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Weather/Weather.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/Home2/search/searchEpic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

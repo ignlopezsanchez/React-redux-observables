@@ -26,7 +26,7 @@ export const weatherEpic = action$ =>
         .getJSON(
           `https://api.openweathermap.org/data/2.5/weather?q=${
             action.payload
-          }&units=metric&APPID=58e1db4c51d420f0e05367be9cd66132` //cf38a91e0870ed34677b1bb47a3b4266
+          }&units=metric&APPID=cf38a91e0870ed34677b1bb47a3b4266` // API encontrada en stackoverflow 58e1db4c51d420f0e05367be9cd66132
         )
         .pipe(
           retry(2),
